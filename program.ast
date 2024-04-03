@@ -1,0 +1,84 @@
+<< Generated at 03/04/24 19:16:58 >>
+
+module
+    """
+this is a test
+"""
+    import	a
+    import
+        b
+        c
+        import_alias	f
+    import
+        c
+        d
+        f
+        g
+        import_alias	h
+    import
+        .
+        x
+        y
+    struct_def
+        Bid
+        struct_member
+            blindedBid
+            type
+                imported_type
+                    np
+                    uint256
+        struct_member
+            deposit
+            type	uint256
+        struct_member
+            test
+            type
+                array_def
+                    action
+                    get_var	foo
+    function_def
+        decorators
+            wrapped
+            arguments
+                arg
+                    get_var	a
+                arg
+                    get_var	b
+            envelope
+        function_sig
+            foo
+            parameters
+                parameter
+                    x
+                    type	A
+                parameter
+                    y
+                    type	B
+            returns
+                type	C
+        body
+            declaration
+                variable
+                    D_P
+                    type	uint256
+                get_var	D
+            assign
+                get_var	a
+                get_var	b
+            assign
+                multiple_assign
+                    skip_assign
+                    get_var	b
+                2
+            raise_with_reason
+                get_var	UNREACHABLE
+            raise_with_reason
+                call
+                    get_var	AssertionError
+                    arguments
+                        arg
+                            get_var	abc
+            return_stmt
+                add
+                    get_var	x
+                    get_var	y

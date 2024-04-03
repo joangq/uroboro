@@ -1,0 +1,23 @@
+"""
+this is a test
+"""
+
+import a
+from b import c as f
+import c.d.f.g as h
+import .x.y
+
+struct Bid:
+    blindedBid: np.uint256
+    deposit: uint256
+    test: action[foo]
+
+@wrapped(a,b)
+@envelope
+def foo(x: A, y: B) -> C:
+    D_P: uint256 = D
+    a = b
+    _, b = 2
+    raise UNREACHABLE
+    raise AssertionError (abc)
+    return x + y
